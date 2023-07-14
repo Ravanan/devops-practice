@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: devops-practice
-          image: <Your DockerHub UserName>/devops_practice:{{ .Values.image.version }}
+          image: mailravan/devops_practice:{{ .Values.image.version }}
           imagePullPolicy: Always
           ports:
           - containerPort: 3000

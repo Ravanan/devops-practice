@@ -10,7 +10,7 @@
     "start": "ts-node-dev --respawn --ignore-watch node_modules --project tsconfig.json index.ts",
     "build": "rm -rf ./dist/* && tsc --project ./tsconfig.json -d false --sourceMap true && ./scripts/postbuild.sh"
   },
-  "author": "Aashirwad kashyap",
+  "author": "Ravanan",
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0",
