@@ -1,11 +1,11 @@
 pipeline {
     agent any
-    environment {
+  /*  environment {
         PROJECT_ID = 'dreamproject-391604'
         CLUSTER_NAME = 'autopilot-cluster-1'
         LOCATION = 'asia-east1'
         CREDENTIALS_ID = 'kubernetes'
-    }
+    }*/
     stages {
         stage("Checkout code") {
             steps {
