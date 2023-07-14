@@ -1,7 +1,7 @@
 FROM node:17-alpine
 LABEL name="devopspractice"
 
-ENV BASE_DIR /opt/aashirwad/devopspractice
+ENV BASE_DIR /opt/ravanan/devopspractice
 
 WORKDIR ${BASE_DIR}
 
@@ -26,7 +26,7 @@ RUN apk add --no-cache git
 # # Install all packages
 RUN npm ci --only=prod
 RUN npm install -g pm2
-RUN chmod +x start.sh 
 
 
-ENTRYPOINT [ "./start.sh" ]
+
+CMD ["echo", "Welcome to Simplilearn"]
