@@ -1,9 +1,9 @@
 pipeline {
     agent any
     environment {
-        PROJECT_ID = 'river-treat-336806'
-        CLUSTER_NAME = 'k8s-cluster'
-        LOCATION = 'us-central1-c'
+        PROJECT_ID = 'dreamproject-391604'
+        CLUSTER_NAME = 'autopilot-cluster-1'
+        LOCATION = 'asia-east1'
         CREDENTIALS_ID = 'kubernetes'
     }
     stages {
